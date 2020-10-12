@@ -4,18 +4,38 @@
         <link href="style.css" rel="stylesheet" type="text/css">
         <title>Homelessness Form</title>
     </head>
-    <body>
-        
-            <header class="head">
-              <h1 class="title">Form To Test Your Knowledge On Homelessness</h1>
-            </header>
-            <main class="survey">
-                <form class="form">
-                    <label for=""><strong>Name:</strong></label>
-                    <input type="text" name="name" placeholder="Name here" id="name"/>
-                </form>
-            </main>
-            
-        
+    <body id="body">
+        <div class="opacity">
+            <form class="form">
+                <header class="head">
+                  <h1 class="title">Form To Test Your Knowledge On Homelessness</h1>
+                </header>
+                <main class="survey">
+                    <label for="age"><strong>Age:</strong></label>
+                    <label for="age">10-15</label>
+                    <input type="radio" name="age"/>
+                    <label for="age">15-20</label>
+                    <input type="radio" name="age"/>
+                    <label for="age">20-30</label>
+                    <input type="radio" name="age"/>
+                    <br>
+                    <label for="survey"><strong>How Many People Do You Belive Are Homeless In New York City</strong></label>
+                    <br>
+                    <select name="survey" id="survey">
+                    <option value="empy-choice">0</option>
+                    <option value="18,000">18,000</option>
+                    <option value="28,000">28,000</option>
+                    <option value="49,000">49,000</option>
+                    <option value="58,000">58,000</option>
+                    <option value="58,000+">58,000+</option>
+                    </select>
+                    <br>
+                    <label for=""><strong>If You could Help how would you Help</strong></label>
+                    <input type="textarea" name="help"/>
+                    <label for=""></label>
+                    <label for="">Do you think that social programs will help end homelessness</label>
+                </main>
+            </form>
+        </div>
     </body>
 </html>

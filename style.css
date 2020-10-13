@@ -1,14 +1,9 @@
 body {
-
-    width: 90%;
-    border: 2px solid black;
-    box-sizing: border-box;
-    height: 1417px;
-
     display: flex;
     flex-direction: column;
     width: 100%;
     /*border: 2px solid black;*/
+    /**/
 }
 main {
     /*border: 2px solid black;*/

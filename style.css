@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     /*border: 2px solid black;*/
     /**/
 }
@@ -12,8 +12,20 @@ main {
     flex-direction: row;
 }
 
+footer {
+    width: 100%;
+}
+
+#col2 {
+    font-size: 13px;
+}
+
+#col-1 img, #col3 img {
+    margin-top: 20px;
+}
+
 img {
-    max-height: 230px;
+    max-height: 200px;
 }
 
 #body {
@@ -40,4 +52,7 @@ footer {
   padding: 3px;
   background-color: DarkSalmon;
   color: white;
+}
+#webpages {
+    align-content: center;
 }

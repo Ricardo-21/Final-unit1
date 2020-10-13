@@ -2,13 +2,13 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 0;
-    /*border: 2px solid black;
-      right: 0;
-        min-width: 90%;
-  min-height: 60%;
-  bottom: 0;*/
-    /**/
+    margin: auto;
+}
+.fixed {
+    display: flex;
+    position: relative;
+    bottom: 1000px;
+    background: red;
 }
 #bob {
   right: 0;
@@ -38,18 +38,19 @@ footer {
 img {
     max-height: 200px;
 }
-
-#body {
-    background-image: url(https://files.slack.com/files-pri/TKZN62HDF-F01CLRY2WLC/image.png);
-    height: 1000px;
-    background-size: cover;
-    width: 100%;
-    margin: 0;
+.abs {
+    position: relative;
+    top: 100px;
+}
+.video-background {
+    position: absolute;
+    height: 100%;
 }
 .opacity {
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.5);
     background-size: cover;
     height: 100%;
+    
 }
 
 .form {
@@ -66,4 +67,15 @@ footer {
 }
 #webpages {
     align-content: center;
+}
+/* forms css/*/
+#body {
+    /*background-image: url(https://files.slack.com/files-pri/TKZN62HDF-F01CLRY2WLC/image.png);/*/
+    height: 1000px;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+}
+.showcase {
+    position: fixed;
 }

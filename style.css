@@ -1,28 +1,24 @@
 body {
+
     width: 90%;
     border: 2px solid black;
     box-sizing: border-box;
     height: 1417px;
-}
 
-main {
-    display: flex;
-    width: inherit;
-    flex-shrink: 3;
-    flex-direction: row;
-    align-content: space-around;
-    
-}
-
-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 100%;
+    /*border: 2px solid black;*/
+}
+main {
+    /*border: 2px solid black;*/
+    display: flex;
+    width: inherit;
+    flex-direction: row;
 }
 
 img {
-    height: 330px;
-    width: inherit;
+    max-height: 230px;
 }
 
 #body {

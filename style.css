@@ -4,8 +4,19 @@ body {
     padding: 0%;
     flex-direction: column;
     width: 100%;
-    /*border: 2px solid black;*/
+    margin: 0;
+    /*border: 2px solid black;
+      right: 0;
+        min-width: 90%;
+  min-height: 60%;
+  bottom: 0;*/
     /**/
+}
+#bob {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 main {
     /*border: 2px solid black;*/

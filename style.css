@@ -1,6 +1,8 @@
 body {
-    width: 100%;
+    width: 90%;
     border: 2px solid black;
+    box-sizing: border-box;
+    height: 1417px;
 }
 
 main {

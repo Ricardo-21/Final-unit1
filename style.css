@@ -28,7 +28,7 @@ footer {
 }
 
 #col2 {
-    font-size: 13px;
+    font-size: 20px;
 }
 
 #col-1 img, #col3 img {
@@ -66,4 +66,11 @@ footer {
 }
 #webpages {
     align-content: center;
+}
+#aboutheader {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
 }

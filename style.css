@@ -1,3 +1,28 @@
+body {
+    width: 100%;
+    border: 2px solid black;
+}
+
+main {
+    display: flex;
+    width: inherit;
+    flex-shrink: 3;
+    flex-direction: row;
+    align-content: space-around;
+    
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    height: 330px;
+    width: inherit;
+}
+
 #body {
     background-image: url(https://files.slack.com/files-pri/TKZN62HDF-F01CLRY2WLC/image.png);
     height: 1000px;

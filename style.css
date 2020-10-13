@@ -62,23 +62,6 @@ img {
     position: relative;
     top: 100px;
 }
-.video-background {
-    position: absolute;
-    height: 100%;
-}
-.opacity {
-    background-color: rgba(255, 255, 255, 0.5);
-    background-size: cover;
-    height: 100%;
-    
-}
-
-.form {
-    width: 70%;
-    border: 1px solid black;
-    margin: auto;
-}
-
 footer {
   text-align: center;
   padding: 3px;
@@ -95,15 +78,45 @@ footer {
   color: white;
   font-size: 30px;
 }
-/* forms css/*/
+/* forms css this is where the form css goes to/*/
 #body {
     /*background-image: url(https://files.slack.com/files-pri/TKZN62HDF-F01CLRY2WLC/image.png);/*/
     height: 1000px;
     background-size: cover;
     width: 100%;
     margin: 0;
+    position: fixed;
 }
 .showcase {
     position: fixed;
     padding: 0;
+}
+.form {
+    display: flex;
+    width: 70%;
+    height: 70%;
+    border: 1px solid black;
+    margin: auto;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 20px;
+}
+.survey {
+    display: flex;
+    flex-direction: column;
+}
+.video-background {
+    position: absolute;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+}
+.sep {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 25px;
+}
+.row1, .row2, .row3, .row4 {
+    display: flex;
 }

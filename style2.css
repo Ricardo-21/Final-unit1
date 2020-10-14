@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+}
+
+section {
+    margin: 0 20%;
+}
+
+#aboutheader, #solheader {
+    background-color: #747578;
+}

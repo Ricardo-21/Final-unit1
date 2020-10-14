@@ -6,12 +6,47 @@ section {
     margin: 0 20%;
 }
 
-#aboutheader, #solheader {
-    background-color: #747578;
+#solheader {
+  background-image: url(https://m.gifmania.co.uk/Messages-Animated-Gifs/Animated-Solutions/Solutions-Company-84735.gif);
   padding: 60px;
   text-align: center;
-  background: #1abc9c;
+  color: black;
+  font-size: 20px;
+  margin-top: 40px;
+}
+/* css for facts.html/*/
+#aboutheader {
+  background-image: url(https://media2.giphy.com/media/kfLB3JhLYR54xuLFLy/giphy.gif);
+  padding: 60px;
+  text-align: center;
   color: white;
   font-size: 30px;
 }
-
+#about-bod {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8bdec6bc-0ef4-4d9c-bf67-5fdaaea0b446/d3k1vk9-b7cf33ff-c725-47b2-a75b-7badd2551570.jpg/v1/fill/w_900,h_900,q_75,strp/tileable_wood_texture_02_by_ftourini_d3k1vk9-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD05MDAiLCJwYXRoIjoiXC9mXC84YmRlYzZiYy0wZWY0LTRkOWMtYmY2Ny01ZmRhYWVhMGI0NDZcL2QzazF2azktYjdjZjMzZmYtYzcyNS00N2IyLWE3NWItN2JhZGQyNTUxNTcwLmpwZyIsIndpZHRoIjoiPD05MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.BKBI1en8wCAEVYsFhKux_dJcz-DBigfWCgaxjjMxmMI);
+}
+#about {
+    background-image: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?size=626&ext=jpg);
+    margin-top: 22px;
+    margin-bottom: 25px;
+    
+}
+/* css code for both header/*/
+.ul {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+.home {
+    padding-left: 20px;
+    color: white;
+}
+.stay {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    background-color:rgba(231,59,5,0.5);
+}

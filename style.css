@@ -127,9 +127,18 @@ footer {
 #aboutheader {
     background-color: #747578;
 }
-/*#col2-bod {*/
-/*    border: 2px solid white;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-    
-/*}*
+.design {
+    background: lightgray;
+    width: 10%;
+    height: 5%;
+    border: 1px solid white;
+    cursor: cell;
+    position: relative;
+    left: 30%;
+}
+.design:hover {
+    background: url(https://www.mewallpaper.com/thumbnail/abstract/8831-blending-colors-free-download-wallpaper-hd.jpg);
+}
+.design:active {
+  box-shadow: 0 5px #666;
+}

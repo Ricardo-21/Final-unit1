@@ -9,8 +9,8 @@ body {
 }
 .fixed {
     display: flex;
-    position: relative;
-    bottom: 1000px;
+    position: absolute;
+    width: 100%;
     background: red;
     margin: 0;
     background-color: #554348;
@@ -133,8 +133,8 @@ footer {
     height: 5%;
     border: 1px solid white;
     cursor: cell;
-    position: relative;
-    left: 30%;
+    margin-bottom: 100px;
+    margin-left: 350px;
 }
 .design:hover {
     background: url(https://www.mewallpaper.com/thumbnail/abstract/8831-blending-colors-free-download-wallpaper-hd.jpg);

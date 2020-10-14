@@ -9,8 +9,8 @@ body {
 }
 .fixed {
     display: flex;
-    position: relative;
-    bottom: 1000px;
+    position: absolute;
+    width: 100%;
     background: red;
     margin: 0;
     background-color: #554348;
@@ -125,6 +125,7 @@ footer {
     width: 70%;
 }
 
+
 /*#col2-bod {*/
 /*    border: 2px solid white;*/
 /*    display: flex;*/
@@ -139,4 +140,19 @@ footer {
 }
 .link:hover {
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+
+.design {
+    background: lightgray;
+    width: 10%;
+    height: 5%;
+    border: 1px solid white;
+    cursor: cell;
+    margin-bottom: 100px;
+    margin-left: 350px;
+}
+.design:hover {
+    background: url(https://www.mewallpaper.com/thumbnail/abstract/8831-blending-colors-free-download-wallpaper-hd.jpg);
+}
+.design:active {
+  box-shadow: 0 5px #666;
 }

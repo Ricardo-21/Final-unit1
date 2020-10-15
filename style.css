@@ -161,3 +161,33 @@ footer {
 .design:active {
   box-shadow: 0 5px #666;
 }
+
+
+
+a:link
+{
+   color: black;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: black;
+   text-decoration: none;
+}
+a:hover
+{
+   color: black;
+   text-decoration: none;
+}
+a:active
+{
+   color: black;
+   text-decoration: none;
+}
+.request {
+    width: 30%;
+}
+.requests {
+    width: 35%;
+    height: 40px;
+}

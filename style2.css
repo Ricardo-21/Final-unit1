@@ -2,6 +2,11 @@ body {
     text-align: center;
 }
 
+.about {
+    display: flex;
+    justify-content: center;
+}
+
 section {
     margin: 0 20%;
 }
@@ -59,26 +64,26 @@ figure {
 }
 
 
-a:link
-{
-   color: black;
-   text-decoration: underline;
-}
-a:visited
-{
-   color: black;
-   text-decoration: none;
-}
-a:hover
-{
-   color: black;
-   text-decoration: none;
-}
-a:active
-{
-   color: black;
-   text-decoration: none;
-}
+/*a:link*/
+/*{*/
+/*   color: black;*/
+/*   text-decoration: underline;*/
+/*}*/
+/*a:visited*/
+/*{*/
+/*   color: black;*/
+/*   text-decoration: none;*/
+/*}*/
+/*a:hover*/
+/*{*/
+/*   color: black;*/
+/*   text-decoration: none;*/
+/*}*/
+/*a:active*/
+/*{*/
+/*   color: black;*/
+/*   text-decoration: none;*/
+/*}*/
 
 
 
@@ -96,4 +101,10 @@ a:active
 
 .resources:hover {
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+@media only screen and (max-width: 950px){
+    section {
+        margin: 0;
+    }
 }

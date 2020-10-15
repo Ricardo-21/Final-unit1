@@ -5,7 +5,8 @@ body {
     flex-direction: column;
     width: 100%;
     margin: auto;
-    background-color: #554348;
+    background-color: black;
+    font-family: 'Fredoka One', cursive;
 }
 .home {
     padding-left: 20px;
@@ -21,7 +22,7 @@ body {
 #bob {
   right: 0;
   bottom: 0;
-  min-width: 100%;
+  width: 100%;
   min-height: 100%;
 }
 .main {
@@ -35,6 +36,7 @@ body {
 article {
     border: 5px solid #747578;
     background-image: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?size=626&ext=jpg);
+    padding: 10px;
     
 }
 
@@ -82,6 +84,8 @@ footer {
     justify-content: space-evenly;
     font-weight: bold;
 }
+
+
 .cover {
     background-image: url();
     background-size: cover;
@@ -128,7 +132,7 @@ footer {
     display: flex;
     flex-direction: column;
     color: black;
-    font-size: 20px;
+    font-size: 17px;
 }
 .row1, .row2, .row3, .row4 {
     display: flex;
@@ -187,12 +191,12 @@ footer {
 
 a:link
 {
-   color: black;
+   color: gold;
    text-decoration: underline;
 }
 a:visited
 {
-   color: black;
+   color: gold;
    text-decoration: none;
 }
 a:hover

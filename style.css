@@ -9,21 +9,29 @@ body {
     font-family: 'Fredoka One', cursive;
 }
 .home {
-    padding-left: 20px;
     color: white;
+}
+.job {
+    width: 100%;
+    height: 600px;
+    /*overflow: hidden;*/
+}
+.almost {
+    justify-content: space-between;
+    width: 100%;
 }
 .stay {
     display: flex;
     justify-content: space-between;
     width: 100%;
     position: fixed;
-    background-color:rgba(231,59,5,0.8);
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8bdec6bc-0ef4-4d9c-bf67-5fdaaea0b446/d3k1vk9-b7cf33ff-c725-47b2-a75b-7badd2551570.jpg/v1/fill/w_900,h_900,q_75,strp/tileable_wood_texture_02_by_ftourini_d3k1vk9-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD05MDAiLCJwYXRoIjoiXC9mXC84YmRlYzZiYy0wZWY0LTRkOWMtYmY2Ny01ZmRhYWVhMGI0NDZcL2QzazF2azktYjdjZjMzZmYtYzcyNS00N2IyLWE3NWItN2JhZGQyNTUxNTcwLmpwZyIsIndpZHRoIjoiPD05MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.BKBI1en8wCAEVYsFhKux_dJcz-DBigfWCgaxjjMxmMI);
+    opacity: 0.8;
 }
-#bob {
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  min-height: 100%;
+#bob{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
 }
 .main {
     /*border: 2px solid black;*/

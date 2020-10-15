@@ -128,7 +128,7 @@ footer {
     display: flex;
     flex-direction: column;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
 }
 .row1, .row2, .row3, .row4 {
     display: flex;

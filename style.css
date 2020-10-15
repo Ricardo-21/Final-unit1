@@ -79,6 +79,11 @@ footer {
     justify-content: space-evenly;
     font-weight: bold;
 }
+.cover {
+    background-image: url();
+    background-size: cover;
+    
+}
 /* forms css this is where the form css goes to/*/
 #body {
     /*background-image: url(https://files.slack.com/files-pri/TKZN62HDF-F01CLRY2WLC/image.png);/*/

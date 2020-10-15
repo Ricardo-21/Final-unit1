@@ -234,10 +234,6 @@ a:active
         flex-direction: column;
     }
     
-    img {
-        max-height: 300px;
-    }
-    
     .link {
         margin-bottom: 5%;
     }

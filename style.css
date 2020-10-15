@@ -218,7 +218,6 @@ a:active
     width: 35%;
     height: 40px;
 }
-
 @media only screen and (max-width: 950px) {
     .stay {
         display: flex;

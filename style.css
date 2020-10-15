@@ -8,6 +8,7 @@ body {
     background-color: black;
     font-family: 'Fredoka One', cursive;
 }
+
 .home {
     color: white;
 }
@@ -224,7 +225,6 @@ a:active
     width: 35%;
     height: 40px;
 }
-
 @media only screen and (max-width: 950px) {
     .stay {
         display: flex;

@@ -6,6 +6,13 @@ section {
     margin: 0 20%;
 }
 
+article {
+    text-align: left;
+}
+figure {
+    text-align: center;
+}
+
 #solheader {
   background-image: url(https://m.gifmania.co.uk/Messages-Animated-Gifs/Animated-Solutions/Solutions-Company-84735.gif);
   padding: 60px;

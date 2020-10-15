@@ -6,6 +6,7 @@ body {
     width: 100%;
     margin: auto;
     background-color: black;
+    font-family: 'Fredoka One', cursive;
 }
 .home {
     padding-left: 20px;
@@ -35,6 +36,7 @@ body {
 article {
     border: 5px solid #747578;
     background-image: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?size=626&ext=jpg);
+    padding: 10px;
     
 }
 
@@ -82,6 +84,8 @@ footer {
     justify-content: space-evenly;
     font-weight: bold;
 }
+
+
 .cover {
     background-image: url();
     background-size: cover;

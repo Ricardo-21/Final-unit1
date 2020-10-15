@@ -7,17 +7,16 @@ body {
     margin: auto;
     background-color: #554348;
 }
-.home {
-    padding-left: 20px;
-    color: white;
-}
-.stay {
+.fixed {
     display: flex;
-    justify-content: space-between;
+    position: absolute;
     width: 100%;
-    position: fixed;
-    background-color:rgba(231,59,5,0.8);
+    background: red;
+    margin: 0;
+    background-color: #554348;
+    color: #8C9A9E;
 }
+
 #bob {
   right: 0;
   bottom: 0;
@@ -71,18 +70,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-.ul {
-    display: flex;
-    align-items: center;
-    width: 300px;
-    justify-content: space-evenly;
-    font-weight: bold;
-}
-.cover {
-    background-image: url();
-    background-size: cover;
-    
 }
 /* forms css this is where the form css goes to/*/
 #body {

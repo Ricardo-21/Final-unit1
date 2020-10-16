@@ -89,7 +89,7 @@ footer {
 .ul {
     display: flex;
     align-items: center;
-    width: 300px;
+    width: 350px;
     justify-content: space-evenly;
     font-weight: bold;
 }

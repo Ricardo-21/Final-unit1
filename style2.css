@@ -54,7 +54,7 @@ figure {
 .ul {
     display: flex;
     align-items: center;
-    width: 300px;
+    width: 350px;
     justify-content: space-evenly;
     font-weight: bold;
 }
@@ -71,8 +71,12 @@ figure {
 }
 .title {
     margin-bottom: 20px;
+    width: 100%;
 }
-
+.map3 {
+    width: 57%;
+    height: 480px;
+}
 
 /*a:link*/
 /*{*/

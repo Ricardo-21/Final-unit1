@@ -67,7 +67,8 @@ figure {
     justify-content: space-between;
     width: 100%;
     position: fixed;
-    background-color:rgba(231,59,5,0.5);
+    background-image: url(header.png);
+   
 }
 .title {
     margin-bottom: 20px;
@@ -76,6 +77,10 @@ figure {
 .map3 {
     width: 57%;
     height: 480px;
+}
+.logo {
+    border: 0;
+    height: 80px;
 }
 
 /*a:link*/

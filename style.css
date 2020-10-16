@@ -103,25 +103,33 @@ footer {
 /* forms css this is where the form css goes to/*/
 #body {
     /*background-image: url(https://files.slack.com/files-pri/TKZN62HDF-F01CLRY2WLC/image.png);/*/
-    height: 1000px;
+    height: 100%;
     background-size: cover;
     width: 100%;
     margin: 0;
-    overflow: auto;
-    position: fixed;
+    overflow: hidden;
+    /*position: fixed;*/
+
 }
 .video-container {
-   padding: 0;
-   height: 100%;
+   /*padding: 0;*/
+   height: inherit;
+   overflow: hidden;
 }
+
+/*#body:-webkit-scrollbar {*/
+/*    display: none;*/
+/*  }*/
 .form {
     display: flex;
-    width: 70%;
+    /*width: 70%;*/
     height: 100%;
     margin: auto;
     flex-direction: column;
     align-items: stretch;
+    padding-left: 10%;
     overflow: auto;
+    position: fixed;
 }
 .survey {
     display: flex;
@@ -202,12 +210,12 @@ footer {
 }
 .design {
     background: lightgray;
-    width: 10%;
+    width: 20%;
     height: 30px;
     border: 1px solid white;
     cursor: cell;
     margin-top: 30px;
-    margin-left: 300px;
+    text-align: center;
 }
 .design:hover {
     background: url(https://www.mewallpaper.com/thumbnail/abstract/8831-blending-colors-free-download-wallpaper-hd.jpg);
@@ -245,7 +253,7 @@ a:active
     width: 35%;
     height: 40px;
 }
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 980px) {
     .stay {
         display: flex;
         flex-direction: column;

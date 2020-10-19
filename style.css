@@ -12,11 +12,6 @@ body {
 .home {
     color: white;
 }
-.job {
-    width: 100%;
-    height: 650px;
-    /*overflow: hidden;*/
-}
 .almost {
     justify-content: space-between;
     width: 100%;
@@ -28,10 +23,14 @@ body {
     position: fixed;
     background-image: url(header.png);
 }
-#bob{
+#background-video{
     width: 100%;
     height: 100%;
     object-fit: fill;
+}
+#vid-container {
+    width: 100%;
+    height: 650px;
 }
 .main {
     /*border: 2px solid black;*/
